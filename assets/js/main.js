@@ -7,7 +7,7 @@ function Calculadora () {
     };
 
     this.capturaEnter = () => {
-        document.addEventListener('keyup', e => {
+        document.addEventListener('keypress', e => {
             if(e.keyCode === 13) {
                 this.realizaConta();
             }
